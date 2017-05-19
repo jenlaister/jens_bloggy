@@ -35,21 +35,25 @@ In your markup/HTML, you can define an id and class on the same element because 
 
 OR you can define them separately if you want different styles on each element:
 
-``<div id='idName'>
-  <div class='className'>
-    </div>
-  </div>``
+``<div id='idName'>``
+  ``<div class='className'>``
+    ``</div>``
+  ``</div>``
+
 
 In CSS, you need ids or classes to help identify the select element you want to apply your styling on. You can use the prefix **.** to define your id and **#** for class.
 
-``div#id {
+``
+div#id {
   align-text: center;
 }
+``
 
+``
 div.class {
   display: relative;
-}``
-
+}
+``
 For object oriented CSS, you do not need to define both the element AND Id or element AND class. You would just need to define the id (#) or class (.).
 
 
