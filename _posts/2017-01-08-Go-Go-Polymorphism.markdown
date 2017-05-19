@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Go-Go-Polymorphism"
+title:  "Go Go Polymorphism"
 date:   2017-01-08 11:50:27 -0400
 categories: Jen's bloggy
 ---

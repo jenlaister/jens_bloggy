@@ -30,37 +30,45 @@ How to define an id and class?
 
 In your markup/HTML, you can define an id and class on the same element because they are different from each other:
 
-``<div id='idName' class='className'>
-  </div>``
+{% highlight JavaScript %}
+<div id='idName' class='className'>
+  </div>
+{% endhighlight %}
 
 OR you can define them separately if you want different styles on each element:
 
-``<div id='idName'>``
-  ``<div class='className'>``
-    ``</div>``
-  ``</div>``
+{% highlight JavaScript %}
+<div id='idName'>
+  <div class='className'>
+    </div>
+  </div>
+{% endhighlight %}
 
 
 In CSS, you need ids or classes to help identify the select element you want to apply your styling on. You can use the prefix **.** to define your id and **#** for class.
 
-``
+{% highlight JavaScript %}
 div#id {
   align-text: center;
 }
-``
+{% endhighlight %}
 
-``
+{% highlight JavaScript %}
 div.class {
   display: relative;
 }
-``
+{% endhighlight %}
+
 For object oriented CSS, you do not need to define both the element AND Id or element AND class. You would just need to define the id (#) or class (.).
 
-
-``#id {
+{% highlight JavaScript %}
+#id {
   align-text: center;
-}``
+}
+{% endhighlight %}
 
-``.class {
+{% highlight JavaScript %}
+.class {
   display: relative;
-}``
+}
+{% endhighlight %}
