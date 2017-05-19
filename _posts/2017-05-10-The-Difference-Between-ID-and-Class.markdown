@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The-Difference-Between-ID-and-Class"
+title:  "The Difference Between ID and Class"
 date:   2017-05-10 11:50:27 -0400
 categories: Jen's bloggy
 ---
@@ -30,33 +30,33 @@ How to define an id and class?
 
 In your markup/HTML, you can define an id and class on the same element because they are different from each other:
 
-<div id='idName' class='className'>
-  </div>
+``<div id='idName' class='className'>
+  </div>``
 
 OR you can define them separately if you want different styles on each element:
 
-<div id='idName'>
+``<div id='idName'>
   <div class='className'>
     </div>
-  </div>
+  </div>``
 
 In CSS, you need ids or classes to help identify the select element you want to apply your styling on. You can use the prefix **.** to define your id and **#** for class.
 
-div#id {
+``div#id {
   align-text: center;
 }
 
 div.class {
   display: relative;
-}
+}``
 
 For object oriented CSS, you do not need to define both the element AND Id or element AND class. You would just need to define the id (#) or class (.).
 
 
-#id {
+``#id {
   align-text: center;
-}
+}``
 
-.class {
+``.class {
   display: relative;
-}
+}``
