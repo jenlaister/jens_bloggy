@@ -24,4 +24,4 @@ Float: Wraps text around images and used to be positioned more towards either th
 
 **Clear**: Moves floated elements either to the left or right or both to push down the content and have the content appear after the floated element. You can also move the floated element inline-start or inline-end.
 
-[Check out the difference between the position properties visually] and [this is a more detailed documentation on CSS positioning].
+[Check out the difference between the position properties visually](http://www.barelyfitz.com/screencast/html-training/css/positioning/) and [this is a more detailed documentation on CSS positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning).
